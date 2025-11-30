@@ -1,0 +1,123 @@
+# Archivos de Claude Code
+.claude/
+.claude_code/
+
+# Notas de desarrollo
+MEJORAS_FUTURAS.txt
+MEJORAS_FUTURAS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+
+# Datos y salidas
+output/*
+!output/.gitkeep
+*.graphml
+
+# Server data
+server/data/downloads/*
+!server/data/downloads/.gitkeep
+server/data/temp/*
+!server/data/temp/.gitkeep
+server/dist/
+server/.env
+
+# Archivos JSON (excepto configuraciones)
+*.json
+!example_data/*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Scripts auxiliares (locales)
+restart_server.sh
+stop_server.sh
+
+# Sistema
+Thumbs.db
+
+# PID files
+backend.pid
+frontend.pid
+.backend.pid
+.frontend.pid
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
